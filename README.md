@@ -23,11 +23,49 @@ This project is a simple Java Swing application that serves as a **game menu int
 
 ---
 
-## Screenshots
 
-*(Optional: Add screenshots of your menu and game screen here.)*
+- `Main.java` – Main class with all GUI code
+- `logo.png` – Logo displayed on the home screen
 
 ---
 
-## Project Structure
+## Requirements
+
+- Java 8 or higher
+- Any IDE that supports Java (IntelliJ, Eclipse, VSCode)
+- Swing library (included by default in standard Java)
+
+---
+
+## How to Run
+
+1. Clone or download the project.
+2. Make sure `logo.png` is placed inside the `src/` folder.
+3. Open the project in your favorite Java IDE.
+4. Compile and run `Main.java`.
+5. The home screen will open with the Play and Quit buttons.
+6. Click **Play** to go to the gray game screen.
+7. Click **Back** to return to the home screen.
+8. Hover over buttons to see the interactive effect.
+
+---
+
+## Customization
+
+- Change the logo: Replace `logo.png` in the `src/` folder.
+- Modify colors: Adjust the `hoverBackground` and `hoverForeground` in `addHoverEffect`.
+- Add more buttons or screens: Extend `menuPanel` or `gamePanel` logic.
+
+---
+
+## License
+
+This project is **© 2026 Pizeltray Studios** – All rights reserved.
+
+---
+
+## Author
+
+**Altray24 / Pizeltray Studios**
+
 
